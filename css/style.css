@@ -85,3 +85,15 @@ section .nomes span {
 section .dourado {
     color: darkgoldenrod;
 }
+
+
+@media (max-width:677px){
+    
+header a {
+    padding: 30px;
+    text-decoration: none;
+    transition: all 800ms;
+    color: black
+}
+
+}
