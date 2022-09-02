@@ -74,7 +74,7 @@ main .organizar .principal {
            
 }
 
-@media (max-width:414px){
+@media (max-width:682px){
     
     header a {
         padding: 30px;
@@ -83,10 +83,10 @@ main .organizar .principal {
         color: black
     }
     
-    }
+    
 
 
-@media (max-width:414px){
+
     
 main .organizar .principal {
     margin-left:5px;
@@ -94,9 +94,9 @@ main .organizar .principal {
     margin-top: 150px;
            
 }
-}
 
-@media (max-width:414px){
+
+
     header{
    
         position:fixed;
