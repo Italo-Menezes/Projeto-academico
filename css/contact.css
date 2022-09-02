@@ -97,10 +97,20 @@ main .quarta p {
 }
 
 
-@media (max-width:896px){
+@media (max-width:414px){
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+      
+    }
+    
     header{
    
-        position:fixed;
+       
         top:0px;
         height: 130px;
         width:100vw;
@@ -118,5 +128,24 @@ main .quarta p {
     
     
     }
+
+  
+    header a {
+        padding: 20px;
+        text-decoration: none;
+        transition: all 800ms;
+        color: black
+    }
+
+    main .organizar {
+        margin-left: 10px;
+        width: 100vw;
+    
+    }
+
+    #text{
+        font-size: 20px;
+    }
+    
     
 }
